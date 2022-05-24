@@ -1,0 +1,19 @@
+微前端应用基础配置及讲解
+ 
+  qiankun-base-demo 是一个底层基座（主应用）
+    底层基座（主应用） 项目中安装微前端库
+      npm install qiankun --save
+    对主文件修改的文件如下
+  1 修改了main.js文件
+  2 新增了micros文件夹下的内容 路径(qiankun-base-demo/src/micros )
+  3 修改了App.vue文件
+
+
+   qiankun-child-application2 是一个微应用
+    
+   对文件修改及主义事项
+  1 修改了main.js文件
+   2 vue.config.js设置 重点关注configureWebpack中output配置  
+
+
+本项目搭建是基于vue搭建的两个项目 
